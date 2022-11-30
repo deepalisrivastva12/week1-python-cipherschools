@@ -1,0 +1,10 @@
+#take the user's name and age as an input
+#if the user's name starts with 'a' or 'A' and it's age isgreater than or equal to 10 print("youcan watch coco")
+#otherwise print ("you can not watch coco")
+user's name=input("enter your name: ")
+user's age=int(input("enter your age: ")
+if user's age>=10 and (user's name[0]='a' or user's name[0]='A'):
+      print("you can watch coco")
+else:
+     print("sorry you cannot watch coco")
+

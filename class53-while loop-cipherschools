@@ -8,4 +8,14 @@ while i<=n:
     total=+i
     i+=1
 print(total)
-    
+
+#ask the user to contain the digits more than one 
+#ex;12345
+#calculate-1+2+3+4
+a=input()
+total=0
+i=0
+while i<len(total):
+    total+=int(a[i])
+    i=i+1
+print(total)

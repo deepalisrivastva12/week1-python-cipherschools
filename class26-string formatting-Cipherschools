@@ -1,0 +1,6 @@
+#ask the user to input three number and print the average of that numbers
+a=int(input("number1: "))
+b=int(input("number1: "))
+c=int(input("number3: "))
+d=(a+b+c)
+print("average of the numbers: " , d/3)

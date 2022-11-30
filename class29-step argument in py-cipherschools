@@ -1,0 +1,3 @@
+#take an input of any name and then print that name in reverseorder
+name=input("Enter your name: ")
+print(f"reverse of the name is {{-1::-1]}")

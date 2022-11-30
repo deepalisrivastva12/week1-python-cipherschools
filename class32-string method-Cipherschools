@@ -1,0 +1,9 @@
+#take two comma seperated inputs from user
+#print the length of users name 
+#print the number of any charater in that name
+#name=vaishnavi
+#chaer=v
+name,char=input("enter name comma seprated char: ").split(",")
+print(len(name))
+a=name.lower()
+print(a.count("v"))

@@ -1,0 +1,16 @@
+#take any winning_number and take an user who guesses the number
+#if the number is equal to winning_number print(You Win)
+#if user guesses the number which is less then winning_number print too low
+#if user guesses the number which is greater then winning_number print too high
+
+winning_number=12
+user=int(input())
+if winning_number==user:
+    print("You Win")
+else:
+    if user < winning_number:
+        print("too low")
+    else: 
+        print("too high")
+
+    
